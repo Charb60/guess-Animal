@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg8" />
+
+    <Button
+        android:id="@+id/wrongbtn4"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="360dp"
+        android:text="lizard"
+        android:textSize="36dp"
+        android:backgroundTint="#FF9E80"/>
+
+    <Button
+        android:id="@+id/wrongbtn3"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="360dp"
+        android:text="koala"
+        android:textSize="36dp"
+        android:backgroundTint="#8C9EFF"/>
+
+
+    <Button
+        android:id="@+id/correct"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="440dp"
+        android:text="duck"
+        android:textSize="36dp"
+        android:backgroundTint="#F84ACC"/>
+
+    <Button
+        android:id="@+id/wrongbtn2"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="440dp"
+        android:text="penguin"
+        android:textSize="30dp"
+        android:backgroundTint="#B388FF"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bganimal" />
+
+    <ImageButton
+        android:id="@+id/btn_play_sound"
+        android:layout_width="127dp"
+        android:layout_height="119dp"
+        android:onClick="playsound"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+</RelativeLayout>

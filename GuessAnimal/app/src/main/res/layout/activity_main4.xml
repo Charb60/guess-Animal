@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg4" />
+
+    <Button
+        android:id="@+id/wrongbtn3"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="360dp"
+        android:text="kitty"
+        android:textSize="36dp"
+        android:backgroundTint="#FFD180"/>
+
+    <Button
+        android:id="@+id/wrongbtn2"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="360dp"
+        android:text="monkey"
+        android:textSize="34dp"
+        android:backgroundTint="#8C9EFF"/>
+
+
+    <Button
+        android:id="@+id/correct"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="440dp"
+        android:text="dolphin"
+        android:textSize="30dp"
+        android:backgroundTint="#FF80AB"/>
+
+    <Button
+        android:id="@+id/wrongbtn4"
+        android:layout_width="189dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="440dp"
+        android:text="mouse"
+        android:textSize="36dp"
+        android:backgroundTint="#4689C3"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bganimal"
+        />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="365dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/dolphin" />
+
+
+</RelativeLayout>
